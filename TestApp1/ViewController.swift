@@ -73,6 +73,13 @@ class ViewController: UIViewController {
             print("終了")
         }
         
+        //文字列
+        var text = "文字列はダブルクオーテーションで囲む\n"
+        text = """
+    複数行文字列は\n
+    ダブルクオーテーション3つで囲む\n
+    """ //閉じる"""の前にあるスペース,Tabの数だけも文字列中行頭のスペースが無視される
+        
         
         // Do any additional setup after loading the view, typically from a nib.
     }
